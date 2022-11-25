@@ -1,0 +1,533 @@
+/* CUSTOM STYLE */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* font-family: 'Open Sans', sans-serif; */
+    /* background: #f8f8f8; */
+    background: #081e30;
+    /* background: #ca6f33; */
+}
+
+.section-globale{
+    background: #efeff1;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    color: #081e30;
+    font-weight: 700;
+    text-align: center;
+    font-size: 3.125rem;
+    padding: 60px 0 40px 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-weight: 500;
+    color: #efeff1;
+    /* padding-bottom: 26px; */
+    /* padding-top: 47px; */
+    font-size: 1.1875rem;
+}
+
+hr {
+    background: #ca6f33;
+    width: 25%;
+    margin: 0 auto 40px auto;
+    opacity: .7;
+}
+
+hr:not([size]) {
+    height: 2px;
+    border-radius: 50px;
+}
+
+.container p {
+    padding: 0 9.166%;
+    margin-bottom: 0;
+    font-size: 1.125rem;
+    line-height: 1.9375rem;
+    font-weight: 400;
+}
+
+/* CAROUSEL CAROUSEL CAROUSEL CAROUSEL */
+
+/* .carousel-caption {
+    align-items: flex-start;
+} */
+
+.carousel-h1 {
+    font-family: 'Open Sans', sans-serif;
+    /* font-size gère la taille de la typo, comme on n'utilise pas de pixels, ici on veut 77px que l'on converti en rem (responsive em - emphase metric) ce qui donne 4.8125rem. CF : https://www.jarrige.fr/pixelrem/ */
+    font-size: 4.8125rem;
+    /* La propriété font-weight gère la graisse de la typo (normal, fin, gras, etc..) */
+    font-weight: 700;
+    color: #081e30;
+    text-shadow: 3px 3px 5px rgba(253, 253, 253, 0.383);
+    /* width: 64%; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    margin: 0;
+}
+
+.carousel-h2 {
+    color: #081e30;
+    font-size: 3rem;
+    font-weight: 700;
+    /* text-align: center; */
+    text-shadow: 2px 2px 5px rgba(253, 253, 253, 0.383);
+    margin-top: 6%;
+    padding: 0;
+}
+
+.carousel-h3 {
+    font-size: 2rem;
+    font-style: italic;
+    color: #081e30;
+    text-shadow: 1px 1px 4px rgba(253, 253, 253, 0.383);
+    margin-top: 1%;
+}
+
+.carousel-item img {
+    max-height: 700px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 60px;
+    width: 60px;
+    color: rgb(187, 18, 18);
+    outline: rgb(242, 10, 10);
+    /* background-color: rgb(141, 47, 47); */
+    /* background-color: #081e30; */
+    background-color: #ca6f33;
+    /* background-size: 100%, 100%; */
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    
+}
+
+/* BANDEAUX JAUNES BANDEAUX JAUNES BANDEAUX JAUNES */
+.bg-yellow {
+    /* background: rgb(252, 190, 3); */
+    background: #ca6f33;
+}
+
+.yellow-line {
+    padding: 70px 0;
+    text-align: center;
+    margin-right: 5%;
+}
+
+.yellow-line a {
+    /* Pour simplifier le responsive, on règle les propriétés agissant sur les largeurs (width, margin-left, margin-right, padding-left, padding-right) de préférence en % */
+    margin-left: 10%;
+    border-radius: 50px;
+    border-color: #081e30;
+}
+
+.yellow-line a:hover,
+.yellow-line a:focus {
+    /* Pour simplifier le responsive, on règle les propriétés agissant sur les largeurs (width, margin-left, margin-right, padding-left, padding-right) de préférence en % */
+    margin-left: 10%;
+    border-radius: 50px;
+    color: #efeff1;
+    background: #081e30;
+}
+
+/* A PROPOS A PROPOS A PROPOS A PROPOS */
+.apropos {
+    background: #efeff1;
+}
+
+.apropos .container p {
+    color: #081e30;
+}
+
+.py-70 {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.bloc-apropos {
+    padding: 2rem 1.375rem;
+    background: #081e30;
+    border-radius: 25px;
+    /* color: whitesmoke; */
+}
+
+.bloc-apropos img{
+    width: 100%;
+    /* border-radius: 50px; */
+    border-radius: 50%;
+    margin: 11px auto;
+}
+
+.bloc-apropos i {
+    color: #ca6f33;
+    font-size: 100px;
+    margin-top: 11px;
+    margin-bottom: 45px;
+}
+
+.bloc-apropos h3 {
+    margin-bottom: 11px;
+    color: whitesmoke;
+}
+
+.apropos .bloc-apropos p {
+    color: #efeff1;
+    font-weight: 400;
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+    padding: 0;
+    margin-top: 11px;
+}
+
+.bloc-defosteo i {
+    /* color: #ca6f33; */
+    /* font-size: 100px; */
+    /* margin-top: 11px; */
+    margin-bottom: 11px;
+}
+
+/* CONTACT CONTACT CONTACT CONTACT*/
+.contact {
+    background: #081e30;
+}
+
+.contact h2 {
+    color: #efeff1;
+}
+
+.contact a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.contact p a:hover,
+.contact p a:focus {
+    color: #ca6f33;
+    font-size: larger;
+    text-decoration: none;
+    transition: .7s;
+}
+
+/* .contact hr {
+    margin: 0 auto 50px auto;
+} */
+
+.py-0 {
+    padding: 0;
+}
+
+#features h3 {
+    /* color: #ca6f33; */
+    font-size: 1.0625rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+#features p {
+    color: whitesmoke;
+    font-size: 0.8125rem;
+    padding: 0;
+    font-weight: 500;
+    line-height: 1.3125rem;
+    margin: 2px 0;
+}
+
+#features i {
+    font-size: 2.5rem;
+    color: #081e30;
+}
+
+.bg-icon-features {
+    background: #ca6f33;
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-icon-features:hover {
+    background: #ca6f33;
+    /* border-radius: 50px; */
+    width: 70px;
+    height: 70px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    transition: .5s;
+}
+
+/* Pour rappel, le signe > permet de ne cibler que les div enfants de premier niveau. */
+#features>.row>div {
+    margin-bottom: 50px;
+}
+
+.btn-contact {
+    text-align: center;
+}
+
+.btn-contact a {
+    border-radius: 50px;
+    border-color: #ca6f33;
+    /* color: #ca6f33; */
+}
+
+.btn-contact a:hover,
+.btn-contact a:focus {
+    background: #ca6f33;
+    color: #efeff1;
+}
+
+/* POUR QUI POUR QUI POUR QUI POUR QUI */
+.pourqui {
+    background: #efeff1;
+}
+
+.bloc-cibles-approches {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.pourqui p,
+.pourqui h2,
+.pourqui h3{
+    color: #081e30;
+}
+
+/* CHIFFRES */
+/* .bg-dark-grey {
+    background: #333231;
+}
+
+#chiffres {
+    padding: 100px 0 70px 0;
+}
+
+#chiffres h4 {
+    font-weight: 700;
+    font-size: 3.75rem;
+}
+
+#chiffres h5 {
+    text-transform: uppercase;
+    font-weight: 700;
+    /* La font-size est déclarée par sécurité, en effet body écrit normalement par défaut en corps 16px, 1rem */
+    /* font-size: 1rem; */
+/* } */
+
+/* PARTNERS */
+/* #CarouselPartners .carousel-indicators li {
+    background-color: #666;
+}
+
+#CarouselPartners .carousel-indicators li.active {
+    background-color: rgba(252, 190, 3, 1);
+}
+
+#CarouselPartners .carousel-indicators {
+    top: 120px;
+} */
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER */
+/* FOOTER MEDIAS */
+#footer .medias {
+    background: #081e30;
+}
+
+#footer .medias h3 {
+    font-size: 1rem;
+    color: #efeff1;
+    font-weight: 700;
+    line-height: initial;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+
+#footer h4 {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    line-height: initial;
+    color: #efeff1;
+    letter-spacing: 2px;
+    font-size: 0.75rem;
+}
+
+/* #footer .medias p {
+    font-size: 0.8125rem;
+    padding: 5px 10px 20px 10px;
+    line-height: 1.5rem;
+} */
+
+#footer .medias .avis span {
+    margin-right: 5px;
+}
+
+#footer .medias .avis i {
+    color: yellow;
+}
+
+#footer .medias .avis,
+#footer .medias a {
+    color: whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer .medias ul {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+/* Dans l'ID team, si il y a un ul et si il y a une li, on leur applique display:inline, color:#b2b3b7 */
+#footer .medias ul li {
+    display: inline;
+    /* list-style-type: none; */
+    color: #efeff1;
+    font-size: 1.25rem;
+    margin: 0 20px;
+}
+
+#footer .copyright h4 {
+    text-align: left;
+    font-size: 0.65rem;
+}
+
+/* FOOTER COPYRIGHT AVIS */
+
+#footer {
+    background-color: #333231;
+}
+
+#footer .container h2 {
+    color: #fff;
+    background-color: #333231;
+}
+
+#footer .container .text-center p {
+    color: #fff;
+}
+
+/* MEDIA QUERIES */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .carousel-inner p {
+        font-size: 1rem;
+    }
+
+    .carousel-inner h5 {
+        font-size: 1.8125rem;
+        width: 64%;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .carousel-inner p {
+        font-size: 1rem;
+    }
+
+    .carousel-inner h5 {
+        font-size: 1.8125rem;
+        width: 64%;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* OVERRIDE BOOTSTRAP */
+.navbar{
+    max-width: 95%;
+    background-color: #ca6f33dd;
+    top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.1rem;
+    border-radius: 25px;
+}
+
+.navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    /* margin-right: 1rem; */
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-left: 1rem;
+}
+
+.navbar img{
+    width: 90%;
+    border-radius: 25% 50% 25% 50%;
+    margin: 0rem 0 0rem 0rem;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.navbar .navbar-nav{
+    margin-left: auto;
+    /* margin-right: 70%; */
+    margin-right: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    /* rgba correspond à une couleur rgb + le a (alpha ou opacité) qui se règle avec des valeurs comprises entre 0 (0%) et 1 (100%). */
+    /* color: rgb(255, 255, 255); */
+    color: #081e30;   
+    /* text-transform: uppercase permet de forcer l'écriture en majuscules. */
+    text-transform: uppercase;
+    /* L'unité utilisée (presque tout le temps est le rem (responsive emphase metric (em)), 1 rem = 16px) */
+    /* font-size: 0.625rem; */
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #efeff1;
+    /* color: #ca6f33; */
+}
+
+.carousel-caption {
+    /* Dans cette réécriture de la règle Bootstrap, les propriétés commentées ne sont pas à redéclarer car on garde ce qui est par défaut dans la déclaration originale dans Bootstrap */
+    /* position: absolute; */
+    right: initial;
+    bottom: initial;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* color: #fff; */
+    /* text-align: center; */
+    width: 100%;
+    /* pointer-events permet de rendre l'objet "invisible" à la souris de sorte que des objets qui seraient dessous (absolute et z-index) resteront cliquables. */
+    pointer-events: none;
+}
